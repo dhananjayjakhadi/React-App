@@ -1,8 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 class Counter extends Component {
-    render() { 
-        return <h1>Welcom to React Counter App</h1>;
-    }
+  render() {
+    return (
+      <div>
+        <h1>Hello World</h1>
+        <button>Increment</button>
+      </div>
+    );
+  }
 }
- 
+
 export default Counter;
